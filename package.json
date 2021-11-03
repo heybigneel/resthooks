@@ -1,0 +1,26 @@
+{
+  "name": "resthooks",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "repository": "git@github.com:neel229/resthooks.git",
+  "author": "neel229 <device.neel@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "dev": "yarn build --watch --preserveWatchOutput",
+    "lint": "eslint src --ext js,ts",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.1.0",
+    "jest": "^27.3.1",
+    "typescript": "^4.4.4"
+  },
+  "volta": {
+    "node": "16.13.0",
+    "yarn": "1.22.17"
+  }
+}
